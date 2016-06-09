@@ -1,0 +1,36 @@
+body{
+  background-color: #eeeeee;
+}
+
+
+
+iframe { 
+  width: 100%; 
+  min-height: 500px; 
+}
+.start-middle {
+  margin-top: 10%;
+}
+.go-high {
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+#search-results {
+  margin-bottom: 75px;
+}
+#search-youtube input {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#search-youtube input:focus {
+  outline: 0;
+}
+
+
+
+
+
+
+
+
+
