@@ -144,8 +144,23 @@ $(document).ready(function() {
       html += "<iframe src='http://www.youtube.com/embed/" + value.id.videoId + "' frameborder='0' allowfullscreen></iframe><br>";
     });
     $("#search-results").append(html);
+
   }
 
+
+//===============Icons.hovering=========
+function imgHover(id, link1, link2){
+$(id).hover(function() {
+    $(this).attr('src', link1);
+   }, function(){
+    $(this).attr('src', link2);
+     }); 
+}
+
+imgHover('#githubIcon', 'images/png/Github2.png', 'images/png/Github.png' );
+imgHover("#facebookIcon", "images/png/Facebook2.png", "images/png/Facebook.png");
+imgHover("#linkedinIcon", 'images/png/Linkedin.png', "images/png/Linkedin2.png" );
+imgHover("#letterIcon", 'images/png/email1.png', "images/png/email.png" );
 
 
 });
